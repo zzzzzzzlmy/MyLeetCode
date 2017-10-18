@@ -18,6 +18,7 @@ class Solution(object):
         :type l2: ListNode
         :rtype: ListNode
         """
+        
         result = ListNode(0)
         if not l1 :
             return l2
