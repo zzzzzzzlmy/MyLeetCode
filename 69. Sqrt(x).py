@@ -11,7 +11,7 @@ x is guaranteed to be a non-negative integer.
 #Output: 2       Output: 2
 
 #Code is here
-
+#1
 class Solution(object):
     def mySqrt(self, x):
         """
@@ -31,5 +31,21 @@ class Solution(object):
                 if(mid + 1) > x / (mid + 1):
                     return mid
                 i = mid
+                
+                
+#2
+class Solution(object):
+    def mySqrt(self, x):
+        """
+        :type x: int
+        :rtype: int
+        """
+        i = x
+        while i * i > x:
+            i = (i + x / i) / 2
+        return i
+    
+    
+    
 
 
