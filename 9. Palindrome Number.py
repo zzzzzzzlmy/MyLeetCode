@@ -1,7 +1,5 @@
 #Determine whether an integer is a palindrome. Do this without extra space.
 
-#Code is here
-
 class Solution(object):
     def isPalindrome(self, x):
         """
