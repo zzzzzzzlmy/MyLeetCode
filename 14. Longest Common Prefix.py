@@ -5,8 +5,6 @@ Given strs = ['ab','abc','abuh','abcd','abcss','abg']
 return 'ab'
 '''
 
-#Code is here
-
 class Solution(object):
     def longestCommonPrefix(self, strs):
         """
@@ -23,3 +21,4 @@ class Solution(object):
                     return res
             res += strs[0][i]
         return res
+    
