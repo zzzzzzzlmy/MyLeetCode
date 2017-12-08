@@ -7,8 +7,6 @@ b = "1"
 Return "100".
 '''
 
-#Code is here
-
 #1
 class Solution(object):
     def addBinary(self, a, b):
