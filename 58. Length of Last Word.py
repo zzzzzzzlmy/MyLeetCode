@@ -11,8 +11,6 @@ Note: A word is defined as a character sequence consists of non-space characters
 #Input: "Hello World"
 #Output: 5
 
-#Code is here
-
 class Solution(object):
     def lengthOfLastWord(self, s):
         """
