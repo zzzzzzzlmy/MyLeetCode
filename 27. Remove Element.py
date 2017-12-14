@@ -11,8 +11,6 @@ The order of elements can be changed. It doesn't matter what you leave beyond th
 
 #Your function should return length = 2, with the first two elements of nums being 2.
 
-#Code is here
-
 class Solution(object):
     def removeElement(self, nums, val):
         """
