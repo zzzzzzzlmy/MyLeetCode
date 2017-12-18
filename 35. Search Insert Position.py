@@ -10,8 +10,6 @@ Here are few examples.
 [1,3,5,6], 0 → 0
 '''
 
-#Code is here
-
 class Solution(object):
     def searchInsert(self, nums, target):
         """
@@ -38,3 +36,4 @@ class Solution(object):
             else:  
                 return mid  
         return left  
+    
