@@ -21,7 +21,7 @@ Note: Each term of the sequence of integers will be represented as a string.
 #Input: 4
 #Output: "1211"
 
-#Code is here
+
 class Solution(object):
     def countAndSay(self, n):
         """
