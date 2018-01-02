@@ -7,8 +7,6 @@ The digits are stored such that the most significant digit is at the head of the
 '''
 #eg. [1,2,3] -> [1,2,4] / [1,9,9] -> [2,0,0]
 
-#Code is here
-
 class Solution(object):
     def plusOne(self, digits):
         """
